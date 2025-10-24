@@ -124,9 +124,9 @@ namespace NEW_LESSON
                     break;
                }
             }
-            if (!lamp) 
+            if (!lamp)
             {
-                this.email= C_email;
+                this.email = C_email;
                 Console.WriteLine("email updated succsesfuly");
             }
             else

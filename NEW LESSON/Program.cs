@@ -46,18 +46,19 @@ namespace NEW_LESSON
                 int y = array[i].getBirthYear();
                 if (y <= Year)
                 {
-                    passage[count - 1] = array[i].age.ToString() + array[i].username;
+                    passage[count - 1] = array[i].getBirthYear().ToString() + array[i].username;
                     count--;
                 }
             }
             Array.Sort(passage);
+            Array.Reverse(passage);
             USER[] s_users = new USER[passage.Length];
             count = passage.Length;
             foreach (string age in passage)
             {
                 for (int i = 0; i < array.Length; i++)
                 {
-                    if (age == array[i].age.ToString() + array[i].username)
+                    if (age == array[i].getBirthYear().ToString() + array[i].username)
                     {
                         s_users[count - 1] = array[i];
                         count--;
@@ -134,6 +135,27 @@ namespace NEW_LESSON
             array[array.Length - 1] = user;
             return array;   
         }
+        
+        static USER[] DeleteUser(ref USER[] array, string username)
+        {
+            USER[] users = new USER[array.Length-1];
+
+            for (int i=0; i<array.Length;i++) {
+                if (array[i].username==username)
+                {
+                    continue;
+                }
+                else
+                {
+                    users[i]=array[i];
+                }
+            }
+
+            array = users;
+
+            return array;
+        }
+
         static void Main()
         {
             USER insan = new USER("stiglitz", "buf2@gmail.com", true, true, "salam123", "inglorious  basterds ", "Raul", "Ibrahimov", 19, "male", "Spanish");
@@ -142,7 +164,7 @@ namespace NEW_LESSON
 
             USER insan_3 = new USER("emma_w", "emma.white@gmail.com", true, false, "emma2025", "La La Land", "Emma", "White", 22, "female", "French");
 
-            USER insan_4 = new USER("michael_b", "m.brown@yahoo.com", true, true, "brownie!", "Inception", "Michael", "Brown", 31, "male", "German");
+            USER insan_4 = new USER("michael_b", "m.brown@yahoo.com", true, true, "brownie!", "Inception", "Michael", "Brown", 30, "male", "German");
 
             USER insan_5 = new USER("lucas_r", "lucasr@outlook.com", false, true, "lucaspass", "Avatar", "Lucas", "Rodriguez", 28, "male", "Spanish");
 
@@ -178,6 +200,10 @@ namespace NEW_LESSON
             Console.WriteLine(users[users.Length - 1].name);
             Console.WriteLine(CreateUser(ref users,insan_12));
             Console.WriteLine(users[users.Length - 1].name);
+            Console.WriteLine(users.Length);
+            DeleteUser(ref users,"fyteri");
+            Console.WriteLine(users[users.Length - 1].name);
+            Console.WriteLine(users.Length);
             //insan.changePassword("bazar123", "bazar123");
             //insan.changeEmail("rauli2@gmail.com",);
         }
