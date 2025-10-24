@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\new lesson\\new lesson\\new lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\new lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\new lesson\\new lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\new lesson\\new lesson\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\new lesson\\new lesson\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HUMAN.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\HUMAN.cs",
+              "RelativeDocumentMoniker": "NEW LESSON\\HUMAN.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\HUMAN.cs",
+              "RelativeToolTip": "NEW LESSON\\HUMAN.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:12:13.744Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NEW LESSON",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\NEW LESSON.csproj",
+              "RelativeDocumentMoniker": "NEW LESSON\\NEW LESSON.csproj",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\NEW LESSON.csproj",
+              "RelativeToolTip": "NEW LESSON\\NEW LESSON.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T14:01:48.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "USER.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\USER.cs",
+              "RelativeDocumentMoniker": "NEW LESSON\\USER.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\USER.cs",
+              "RelativeToolTip": "NEW LESSON\\USER.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwHoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T12:17:46.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\Program.cs",
+              "RelativeDocumentMoniker": "NEW LESSON\\Program.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\NEW LESSON\\NEW LESSON\\Program.cs",
+              "RelativeToolTip": "NEW LESSON\\Program.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwKQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:55:33.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
