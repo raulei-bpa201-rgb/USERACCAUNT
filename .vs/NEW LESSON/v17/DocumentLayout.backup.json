@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\",
+  "WorkspaceRootPath": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\narim\\source\\repos\\useraccaunt\\new lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\useraccaunt\\new lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\narim\\source\\repos\\useraccaunt\\new lesson\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\useraccaunt\\new lesson\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\narim\\source\\repos\\useraccaunt\\new lesson\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|c:\\users\\ii novbe\\source\\repos\\useraccaunt\\new lesson\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D35D35-22BC-4B51-B2A2-0FEBDDC156C0}|NEW LESSON\\NEW LESSON.csproj|solutionrelative:new lesson\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HUMAN.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\HUMAN.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\HUMAN.cs",
               "RelativeDocumentMoniker": "NEW LESSON\\HUMAN.cs",
-              "ToolTip": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\HUMAN.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\HUMAN.cs",
               "RelativeToolTip": "NEW LESSON\\HUMAN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAtwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T10:12:13.744Z",
               "IsPinned": true,
@@ -42,11 +42,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "USER.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\USER.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\USER.cs",
               "RelativeDocumentMoniker": "NEW LESSON\\USER.cs",
-              "ToolTip": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\USER.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\USER.cs",
               "RelativeToolTip": "NEW LESSON\\USER.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAcwAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T12:17:46.491Z",
               "IsPinned": true,
@@ -56,11 +56,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\Program.cs",
               "RelativeDocumentMoniker": "NEW LESSON\\Program.cs",
-              "ToolTip": "C:\\Users\\narim\\source\\repos\\USERACCAUNT\\NEW LESSON\\Program.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\USERACCAUNT\\NEW LESSON\\Program.cs",
               "RelativeToolTip": "NEW LESSON\\Program.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAwwMoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAOMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T11:55:33.594Z",
               "IsPinned": true,

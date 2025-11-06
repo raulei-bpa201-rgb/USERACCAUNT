@@ -28,3 +28,18 @@ C:\Users\narim\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\refint\NEW L
 C:\Users\narim\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.pdb
 C:\Users\narim\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.genruntimeconfig.cache
 C:\Users\narim\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\ref\NEW LESSON.dll
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\bin\Debug\net8.0\NEW LESSON.exe
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\bin\Debug\net8.0\NEW LESSON.deps.json
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\bin\Debug\net8.0\NEW LESSON.runtimeconfig.json
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\bin\Debug\net8.0\NEW LESSON.dll
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\bin\Debug\net8.0\NEW LESSON.pdb
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.AssemblyInfoInputs.cache
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.AssemblyInfo.cs
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.sourcelink.json
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.dll
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\refint\NEW LESSON.dll
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.pdb
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\NEW LESSON.genruntimeconfig.cache
+C:\Users\II Novbe\Source\Repos\USERACCAUNT\NEW LESSON\obj\Debug\net8.0\ref\NEW LESSON.dll

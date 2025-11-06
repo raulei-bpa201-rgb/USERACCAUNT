@@ -1,11 +1,23 @@
 ﻿using HUMAN;
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace NEW_LESSON
 {
+    
     public class Program
     {
+        static string BosluqTapantus(int num)
+        {
+            string bosluq = "";
+            for (int k = 0; k < num; k++)
+            {
+                bosluq += "0";
+            }
+            return bosluq;
+        }
+
         static USER[] sortUsersByUsername(USER[] array)
         {
             string[] un_array = new string[array.Length];
@@ -33,8 +45,13 @@ namespace NEW_LESSON
         static USER[] filterByBirthYear(USER[] array, int Year)
         {
             int count = 0;
+            int max = array[0].getBirthYear();
             foreach (var obj in array)
             {
+                if (obj.getBirthYear() > max)
+                {
+                    max = obj.getBirthYear();
+                }
                 if (obj.getBirthYear() <= Year)
                 {
                     count++;
@@ -46,7 +63,17 @@ namespace NEW_LESSON
                 int y = array[i].getBirthYear();
                 if (y <= Year)
                 {
-                    passage[count - 1] = array[i].getBirthYear().ToString() + array[i].username;
+                    if (max.ToString().Length > array[i].getBirthYear().ToString().Length)
+                    {
+
+                        string bosluq = BosluqTapantus(max.ToString().Length - array[i].getBirthYear().ToString().Length);
+                        
+                        passage[count - 1] = bosluq + array[i].getBirthYear().ToString() + array[i].username;
+                    }
+                    else 
+                    {
+                        passage[count - 1] = array[i].getBirthYear().ToString() + array[i].username;
+                    }        
                     count--;
                 }
             }
@@ -58,7 +85,17 @@ namespace NEW_LESSON
             {
                 for (int i = 0; i < array.Length; i++)
                 {
-                    if (age == array[i].getBirthYear().ToString() + array[i].username)
+                    string kk;
+                    if (max.ToString().Length > array[i].getBirthYear().ToString().Length)
+                    {
+                        string bosluq = BosluqTapantus(max.ToString().Length - array[i].getBirthYear().ToString().Length);
+                        kk = bosluq + array[i].getBirthYear().ToString() + array[i].username;
+                    }
+                    else
+                    {
+                        kk = array[i].getBirthYear().ToString()+array[i].username;
+                    }
+                    if (age == kk)
                     {
                         s_users[count - 1] = array[i];
                         count--;
@@ -162,17 +199,17 @@ namespace NEW_LESSON
 
             USER insan_2 = new USER("doe_john", "john.doe@example.com", false, true, "john123", "The Matrix", "John", "Doe", 25, "male", "English");
 
-            USER insan_3 = new USER("emma_w", "emma.white@gmail.com", true, false, "emma2025", "La La Land", "Emma", "White", 22, "female", "French");
+            USER insan_3 = new USER("emma_w", "emma.white@gmail.com", true, false, "emma2025", "La La Land", "Emma", "White", 1930, "female", "French");
 
             USER insan_4 = new USER("michael_b", "m.brown@yahoo.com", true, true, "brownie!", "Inception", "Michael", "Brown", 30, "male", "German");
 
-            USER insan_5 = new USER("lucas_r", "lucasr@outlook.com", false, true, "lucaspass", "Avatar", "Lucas", "Rodriguez", 28, "male", "Spanish");
+            USER insan_5 = new USER("lucas_r", "lucasr@outlook.com", false, true, "lucaspass", "Avatar", "Lucas", "Rodriguez", 1940, "male", "Spanish");
 
             USER insan_6 = new USER("sofia_k", "sofiak123@gmail.com", true, true, "skyblue7", "Titanic", "Sofia", "Keller", 24, "female", "Italian");
 
-            USER insan_7 = new USER("alex_king", "alexking@mail.com", false, false, "king123", "The Godfather", "Alex", "King", 27, "male", "Portuguese");
+            USER insan_7 = new USER("alex_king", "alexking@mail.com", false, false, "king123", "The Godfather", "Alex", "King", 1940, "male", "Portuguese");
 
-            USER insan_8 = new USER("nina_l", "nina.l@protonmail.com", true, false, "nina@pass", "Barbie", "Nina", "Lopez", 21, "female", "Spanish");
+            USER insan_8 = new USER("nina_l", "nina.l@protonmail.com", true, false, "nina@pass", "Barbie", "Nina", "Lopez", 400, "female", "Spanish");
 
             USER insan_9 = new USER("ethan_m", "ethan.miller@gmail.com", true, true, "ethanM!", "Interstellar", "Ethan", "Miller", 30, "male", "English");
 
@@ -185,7 +222,7 @@ namespace NEW_LESSON
             USER[] users = { insan, insan_2, insan_3, insan_4, insan_5, insan_6, insan_7, insan_8, insan_9, insan_10, insan_11};
 
             //Console.WriteLine(sortUsersByUsername(users)[0].username);
-            USER[] user = filterByBirthYear(users, 2000);
+            USER[] user = filterByBirthYear(users, 2003);
             foreach (var item in user)
             {
                 Console.WriteLine(item.username +": "+ item.getBirthYear().ToString());
